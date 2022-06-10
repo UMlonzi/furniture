@@ -1,0 +1,73 @@
+.mainSection{
+    display: flex;
+      /* background-color: yellow;   */
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contentBox{
+    width: 40%;
+     /* background-color: orange;  */
+    padding-left: 1em;
+    position: relative;
+    bottom: -1rem;
+
+}
+.contentBox h1{
+    font-size: 4rem;
+    color: #192623;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contentBox h2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    font-size: 1.5rem;
+
+}
+.contentBox p{
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+.btnBox{
+    width:100%;
+    display: flex;
+    
+    margin-top: 2em;
+}
+.btn{
+    border: 2px soild ;
+    border-radius: 0.7em;
+    background-color: #505F5F;
+    
+
+}
+.SHopNow{
+    display: inline-block;
+    font-size: 1.2em;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    color: white;
+}
+.imgContainer{
+    width: 50%;
+ /* background-color: red;  */
+position: relative;
+z-index: 1;
+
+}
+.imgContainer img{
+    width: 60%;
+  position:absolute;
+    bottom: -13rem;
+    left: 15rem;
+    
+}
+.backColor{
+    background-color: #969e91;
+    width: 303px;
+    height: 630px;
+    left: 27rem;
+    bottom: -2rem;
+    position: absolute;
+}
