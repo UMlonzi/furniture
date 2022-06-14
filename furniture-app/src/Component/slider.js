@@ -5,6 +5,8 @@ import amosChair from '../Images/pixlr-bg-resultAmos (1).png';
 import sofaChair from '../Images/pixlr-bg-result (1).png';
 import  kewChair from '../Images/pixlr-bg-relt (3).png';
 import  thatChair from '../Images/pixlr-bg-resu.png';
+// import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+
 // import BtnSlider from './Component/BtnSlider';
 
 export default function Slider(props) {
@@ -15,8 +17,8 @@ export default function Slider(props) {
       <div>
          <div className='slide'/> 
          <div class="horizontal-scroll">
-                <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left"></i></button>
-                <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button>
+                {/* <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left"></i></button>
+                <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button> */}
                 <div class="storys-container">
          <div className='story-circle'>
           <div>     
@@ -79,7 +81,7 @@ export default function Slider(props) {
            <div className='wordsb1'>
                           
             <img className='imgSlider'   src={thatChair} alt="thatChair"/>
-                            <p>Kew Chair</p>
+                            <p>That Chair</p>
                             <h4>R400</h4>
                             
 
@@ -96,6 +98,39 @@ export default function Slider(props) {
       <btnSlider/>
       <btnSlider/>
     </div>
+    
     </>
+    
   )
+  // function App() {
+  //   const NextArrow = ({ onClick }) => {
+  //     return (
+  //       <div className="arrow next" onClick={onClick}>
+  //         <FaArrowRight />
+  //       </div>
+  //     );
+  //   };
+  
+  //   const PrevArrow = ({ onClick }) => {
+  //     return (
+  //       <div className="arrow prev" onClick={onClick}>
+  //         <FaArrowLeft />
+  //       </div>
+  //     );
+  //   };
+  // }
+  // const [imageIndex, setImageIndex] = useState(0);
+
+  // const settings = {
+  //   infinite: true,
+  //   lazyLoad: true,
+  //   speed: 300,
+  //   slidesToShow: 3,
+  //   centerMode: true,
+  //   centerPadding: 0,
+  //   nextArrow: <NextArrow />,
+  //   prevArrow: <PrevArrow />,
+  //   beforeChange: (current, next) => setImageIndex(next),
+  // };
+
 }
